@@ -1,0 +1,70 @@
+/* #background{
+    background-image: url("https://images.pexels.com/photos/28944070/pexels-photo-28944070/free-photo-of-high-speed-action-on-a-professional-race-track.jpeg?h=1000&w=1500&fit=crop");
+    padding: 30px;
+    margin: 5%;
+    border-radius: 20px;
+    border: 1px solid white;
+   
+}
+#car{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    justify-content: center;
+    gap: 15%;
+}
+#round{
+    border-radius: 15px;
+    border: 1px solid white;
+    height: 30%;
+    width: auto;
+
+}
+#center{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: rgba(94, 85, 85, 0.1);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+#btn{
+    height: 30px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    color: white;
+    background-color: #22242a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Desktop default styles */
+.sidebar { width: 30%; float: left; }
+.main-content { width: 70%; float: left; }
+
+/* Mobile rules: Applied when screen width is 768px or less */
+@media screen and (max-width: 768px) {
+    .sidebar, .main-content {
+        width: 100%; /* Stacks columns vertically on mobile */
+        float: none;
+    }
+} 

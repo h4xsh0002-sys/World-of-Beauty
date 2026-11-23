@@ -1,0 +1,16 @@
+#demo{
+     background: linear-gradient(to right,yellow, red, white);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+    
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+    padding-top: 50px;
+}
